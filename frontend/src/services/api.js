@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'campus-resourses-management-system-foe7n4ip4.vercel.app',
+    baseURL: 'https://campus-resourses-management-system.vercel.app/',
 });
 
 export const resourceService = {
